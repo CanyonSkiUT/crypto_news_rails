@@ -1741,3 +1741,15 @@ Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.0ms | Allocations:
 SocketError (Failed to open TCP connection to min-api.cryptocompare.com:443 (getaddrinfo: nodename nor servname provided, or not known)):
   
 app/controllers/home_controller.rb:9:in `index'
+Started GET "/" for ::1 at 2021-04-01 20:16:22 -0600
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1008)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_navbar.html.erb (Duration: 1.9ms | Allocations: 489)
+  Rendered layout layouts/application.html.erb (Duration: 78.5ms | Allocations: 15822)
+Completed 200 OK in 1518ms (Views: 81.7ms | ActiveRecord: 0.0ms | Allocations: 23464)
+
+
